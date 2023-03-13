@@ -1,0 +1,511 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(23,23,23,0.15);
+    padding: 20px;
+    position: absolute;
+    top: 0;
+}
+.heading-one{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 42px;
+    letter-spacing: 8px;
+}
+.heading-one img{
+    height: 20px;
+    height: 20px;
+    width: 22px;
+    border-radius: 50%;
+    margin-right: -9px;
+}
+.heading-one a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.heading-two{
+    display: flex;
+    align-items: center;
+    letter-spacing: 15px;
+    padding-left: 119px;
+}
+
+
+.heading-two img{
+    height: 99px;
+    width: 129px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading-two a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding-left: 6px;
+
+}
+
+.left-section-h2{
+    display: flex;
+    align-items: center;
+}
+.right-section-h2{
+    padding-left: 428px;
+    display: flex;
+    flex-wrap: wrap
+
+}
+.right-section-h2 img{
+    height: 21px;
+    width: 20px;
+    margin-left: 2px;
+    border-radius: 50%
+}
+.right-section-h2 button{
+    width: 168px;
+    height: 36px;
+    background: white;
+    border: 1px solid black
+}
+.heading-three{
+    background: orangered;
+    height: 42px;
+    
+    
+}
+.heading-three label{
+    color: white;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    font-size: 19px;
+    flex-wrap: wrap;
+    
+
+}
+.banner{
+     height: 854px;
+    width: 100%;
+    background: url(bike-one.jpg);
+    background-repeat: no-repeat;
+    background-size: 1692px 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.banner-text h1{
+    font-size: 30px;
+
+}
+.banner-text h6{
+    font-size: 16px;
+}
+
+.banner button{
+    background: black;
+    color: white;
+    height: 49px;
+    width: 136px;
+    margin-left: -279px;
+    cursor: pointer;
+    margin-top: 250px;
+
+}
+.banner-text{
+   color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 180px;
+}
+
+.bike-typeshead{
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 187px;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 2px
+
+}
+.left-sec{
+   width: 50%;
+    height: 509.138px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.left-sec label{
+    padding-top: 192px;
+}
+.left-sec p{
+      padding-bottom: 224px;
+    margin-right: -42px;
+    letter-spacing: 1px
+}
+.arrow{
+
+}
+.left-sec img{
+    height: 19px;
+    width: 32px;
+    display: flex;
+    margin-top: -18px;
+    margin-left: 81px;
+    cursor: pointer;
+
+}
+.shop-now{
+    height: 171px;
+    width: 100%;
+    margin-top: -225px;
+    margin-left: 200px
+
+}
+.right-sec{
+    width: 50%;
+    height: 509.138px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 844px;
+    margin-top: -508px;
+
+
+}
+
+.right-sec img{
+    height: 447px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.homecoming-section{
+    height: 509.138px;
+    width: 100%;
+    background: lightgrey;
+    margin-top: 20px;
+}
+
+.homecoming-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left-section-home{
+    height: 509px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.right-section-home{
+    margin-left: 842px;
+    margin-top: -509px;
+    height: 509px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.right-section-cont{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.right-section-cont label{
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.right-section-cont p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.arrow-btn-home{
+    height: 22px;
+    background: transparent;
+    border-radius: 87%;
+    width: 33px;
+}
+.right-section-cont button{
+    background: transparent;
+    border: transparent;
+    display: flex;
+    font-weight: bold;
+    font-size: 17px
+}
+.slider{
+    margin-left: 108px;
+}
+.head-slider{
+    font-size: 32px;
+
+}
+.img-slider{
+    display: flex;
+    justify-content: center;
+}
+.bike-three{
+    height: 636px;
+    width: 876px;
+}
+.bike-four{
+    height: 636px;
+    width: 442px;
+    margin-left: 10px;
+    opacity: 0.5;
+
+}
+.img-slider button{
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 362px;
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+.img-det label{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 109px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:  16px;
+    cursor: pointer;
+
+}
+.img-det p{
+
+   margin-left: 111px;
+}
+.img-arrow{
+    height: 25px;
+
+}
+.anniversary label{
+    display: flex;
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 52px;
+    padding-left: 214px;
+
+}
+.men-jacket img{
+    margin-left: 211px;
+    margin-top: 41px;
+    height: 506px
+
+}
+.men-jacket label{
+
+}
+.women-jacket{
+    margin-top: -107px;
+}
+.women-jacket img{
+    height: 501px;
+    margin-left: 1007px;
+    margin-top: -484px;
+   
+
+}
+.women-jacket label{
+    margin-left: 800px;
+    
+
+} 
+
+.gear{
+    margin-top: 36px;
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 208px;
+
+}
+.gear label{
+    
+}
+.men-gear{
+    margin-top: 46px;
+    margin-left: -239px;
+
+}
+.men-gear img{
+    height: 423.337px;
+    width: 423.337px;
+
+}
+.men-gear label{
+
+}
+.men-gear p{
+    font-weight: 100;
+    font-size: 16px
+
+}
+.accessories{
+    margin-left: 476px;
+    margin-top: -602px;
+
+}
+.accessories label{
+
+}
+.accessories p{
+
+}
+.accessories label{
+
+}
+.accessories img{
+    height: 423.337px;
+    width: 423.337px;
+
+}
+
+.women-gear{
+    margin-left: 997px;
+    margin-top: -598px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+ 
+
+}
+.women-gear img{
+    height: 423.337px;
+    width: 423.337px;
+
+}
+.women-gear label{
+    display: flex;
+    flex-direction: column;
+
+}
+.women-gear p{
+
+}
+.shop-women{
+    margin-top: 63px;
+    margin-left: -360px;
+}
+.foot{
+    height: 1089px;
+    width: 100%;
+    background: black;
+}
+.foot-title{
+    color: white;
+    font-family: tertiary-font;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    padding-top: 81px;
+    padding-right: 800px
+}
+.hr{
+    margin-top: 25px;
+    width: 75%;
+    color: lightgrey;
+    display: flex;
+    flex-wrap: wrap
+
+}
+.contact{
+    color: white;
+    font-weight: bold;
+    margin-left: 269px
+
+}
+.foot-divison{
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.foot-divison h4{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 272px;
+
+}
+.contact-right{
+    color: white;
+}
+
+.contact-right h3{
+    margin-top: -588px;
+    margin-left: 588px;
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+
+}
+.contact-right h4{
+    margin-left: 587px;
+    color: white;
+}
+.about{
+    margin-top: 642px
+}
+
+.para{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.india-img{
+    height: 20px;
+    height: 20px;
+    width: 22px;
+    border-radius: 50%;
+    margin-right: 9px;
+
+}
+.para2{
+    color: lightgrey;
+
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+.last button{
+    height: 50px;
+    width: 202px;
+    border: 1px solid gray;
+    background: black;
+    color: white;
+    margin-top: 16px;
+    margin-right: 36px;
+}
